@@ -1,0 +1,123 @@
+a:link,
+a:visited,
+a:hover,
+a:active a:-webkit-any-link {
+  text-decoration: none !important;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active a:-moz-any-link {
+  text-decoration: none !important;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active a:any-link {
+  text-decoration: none !important;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+.content {
+  padding: 1rem;
+}
+
+footer {
+  height: 2rem;
+}
+
+label,
+input,
+textarea {
+  display: block;
+}
+
+.list.row {
+  --bs-gutter-x:0;
+}
+
+.card {
+  margin: 0.5rem;
+  padding: 0;
+}
+
+.card p {
+  color: #7F7F7F;
+}
+
+.card .date {
+  font-size: 0.8rem;
+  margin-bottom: 0;
+  color: #7F7F7F;
+}
+
+.card-title a {
+  color: #333333;
+}
+
+.card .tags {
+  color: #333333;
+}
+
+.section {
+  background-color: white;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.section .date {
+  color: #7F7F7F;
+}
+
+.section p {
+  color: #333333;
+}
+
+.comment {
+  background-color: #fafafa;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.comment:hover {
+  background-color: #7F7F7F;
+}
+
+.comment:hover p, .comment:hover h4, .comment:hover a {
+  color: #fff;
+}
+
+.comment .info {
+  color: #7F7F7F;
+  font-size: 0.8rem;
+}
+
+.new_comment label, .new_comment input, .new_comment textarea {
+  display: block;
+}
+
+.helptext {
+  color: #7F7F7F;
+  font-size: 0.8rem;
+}
+
+.sidebar {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.sidebar .accordion {
+  margin: 0.5rem 0;
+}
+/*# sourceMappingURL=main.css.map */

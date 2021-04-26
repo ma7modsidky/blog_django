@@ -1,0 +1,11 @@
+{% extends "blog/base.html" %}
+{% block title %}Share a post{% endblock %}
+{% block content %}
+    <ul class='section'>
+        {% for tag in object_list %}
+            <a href="{% url "blog:post_list_by_tag" tag.slug %}" class="badge bg-secondary mx-2">
+                    {{ tag.name }}
+                </a>
+        {% endfor %}
+    </ul>
+{% endblock %}

@@ -1,0 +1,2 @@
+Django==3.0.12
+django_taggit==1.4.0

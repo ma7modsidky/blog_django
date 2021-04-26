@@ -1,0 +1,33 @@
+
+$grey: #333333;
+$lightgrey: #7F7F7F;
+$verylightgrey: #fafafa;
+
+a:link,
+a:visited,
+a:hover,
+a:active a:any-link {
+    text-decoration: none !important;
+}
+
+
+
+body {
+    background-color: $verylightgrey;
+}
+
+.content {
+    padding: 1rem;
+}
+
+footer {
+    height: 2rem;
+}
+label,
+input,
+textarea {
+    display: block;
+    
+}
+@import '_list.scss';
+@import '_side.scss';
